@@ -17,7 +17,7 @@ footer {
 }
 
 h1{
-
+    color: black;
 }
 
 /*.col{
@@ -63,8 +63,8 @@ h1{
 }
 
 #MYBTN{
-display: flex;
-    position: fixed;
+    display: flex;
+    position: absolute;
     right: 20%;
     bottom: 45%;
     height: 8%;
