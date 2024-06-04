@@ -46,17 +46,27 @@ h1{
 }
 
 .btn btn-outline-primary me-2{
-    display: flex;
+    /*display: flex;*/
     position: fixed;
     right: 10%;
 }
 
 .img_wom{
-    display: flex;
-    position: fixed;
-    height: 60% ;
-    bottom: 11%;
+    /*display: flex;*/
+    position: relative;
+    height: 85% ;
+    bottom: -10%;
 }
+
+@media screen and (max-width: 600px) {
+    .img_wom{
+        /* Cambia la posición de la imagen para pantallas pequeñas */
+        position: absolute;
+        left: 30%;
+        top: 30%;
+    }
+}
+
 
 .d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom{
     background-color: #20c997;
